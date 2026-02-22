@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+  height: 100%; /* Ensures the body takes the full viewport height */
+  margin: 0;
+}
+
+* {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #3574e6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    flex-grow: 1;
+    max-width: 1200px;
+}
+
+.logo {
+    letter-spacing: 1px;
+}
+
+ul.nav-link {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.logo a, .nav-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link a:hover {
+    color: #c6c3c3;
+}
+
+.hero-section {
+    background-color: #0151cc;
+    display: flex;
+    justify-content: center;
+    min-height: 350px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    max-width: 1200px;
+    flex-grow: 1;
+    padding: 0 10px;
+}
+
+.hero-container .left-side {
+    max-width: 650px;
+}
+
+.hero-container .hero-img img {
+    max-width: 300px;
+}
+
+.feature-container {
+    background-color: #a1c3ff;
+    height: calc(100vh - 350px - 80px);
+    display: flex;
+    justify-content: center; 
+    padding: 20px 0;
+}
+
+.feature {
+    display: flex;
+    flex-grow: 1;
+    max-width: 1200px;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.feature1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #0a52cb;
+    color: #fff;
+    max-width: 350px;
+    max-height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.feature1 .feature1-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.feature1 .feature1-heading i {
+    font-size: 23px;
+}
+
+.feature1 .feature1-heading h2 {
+    font-size: 20px;
+}
+
+.feature1 .feature1-text {
+    margin-top: 15px;
+}
+
+
+/* 76.8 */
